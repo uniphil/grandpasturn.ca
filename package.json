@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
+    "build": "npx eleventy",
     "dev": "eleventy --serve"
   },
   "repository": {
