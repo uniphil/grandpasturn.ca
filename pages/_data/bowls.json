@@ -1,0 +1,23 @@
+[
+  {
+    "number": 1,
+    "date": 2021,
+    "source": "Apple tree",
+    "feature": "Technical",
+    "description": "Lorem ipsum dolor sit amet"
+  },
+  {
+    "number": 2,
+    "date": 2021,
+    "source": "Beach",
+    "feature": "Artistic",
+    "description": "Lorem ipsum dolor sit amet"
+  },
+  {
+    "number": 3,
+    "date": 2021,
+    "source": "Apple tree",
+    "feature": "Functional",
+    "description": "Lorem ipsum dolor sit amet"
+  }
+]

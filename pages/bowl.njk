@@ -1,0 +1,21 @@
+---
+layout: base.njk
+pagination:
+    data: bowls
+    size: 1
+    alias: bowl
+permalink: "bowl/{{ bowl.number | slugify }}/"
+eleventyComputed:
+    title: "Bowl #{{ bowl.number }}"
+---
+
+<h1>{{ title }}</h1>
+<dl>
+  <dt>date</dt>
+  <dd>{{ bowl.date }}</dd>
+  <dt>source</dt>
+  <dd>{{ bowl.source }}</dd>
+  <dt>feature</dt>
+  <dd>{{ bowl.feature }}</dd>
+</dl>
+<p>{{ bowl.description }}
