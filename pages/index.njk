@@ -2,11 +2,36 @@
 layout: base
 ---
 
-{% include 'navigation.njk' %}
+<div class="container">
+  <nav>
+    <h1>Grandpa's Turn</h1>
+    {% include 'navigation.njk' %}
+  </nav>
 
-<h1>Grandpa's Turn</h1>
-
-<img
-  class="the-grid"
-  src="{{ '/static/grid-sketch.jpg' | url }}"
-  alt="81 hand-turned wooden bowls on a home-made 9x9 compartment shelf" />
+  {% set grid_width = 1200 %}
+  {% set grid_height = 1194 %}
+  {% set grid_aspect = grid_width / grid_height %}
+  <div
+    style="--im: url('{{ '/static/grid-sketch.jpg' | url }}')"
+    data-background-image
+    data-width="{{ grid_width }}"
+    data-height="{{ grid_height }}">
+    <ol class="bowls unlist">
+      {% for bowl in bowls %}
+        {% set x = loop.index0 % 9 %}
+        {% set y = loop.index0 // 9 %}
+        <li data-x="{{ x }}" data-y="{{ y }}">
+          <a
+            href="{{ ('/bowl/' + loop.index) | url }}"
+            title="oooo">
+            bowl #{{ loop.index }}
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {# <img
+    class="the-grid"
+    src=""
+    alt="81 hand-turned wooden bowls on a home-made 9x9 compartment shelf" /> #}
+</div>
