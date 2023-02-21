@@ -1,6 +1,59 @@
+:root {
+  --flow-space: 1.5em;
+  --flow-space-h: 1em;
+  --text-sm: 0.75em;
+  font-size: 14pt;
+  line-height: 1.5em;
+}
 
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+.flow > * + * {
+  margin-top: var(--flow-space);
+}
+
+.flow.left > * + * {
+  margin-top: 0;
+  margin-left: var(--flow-space-h);
+}
+
+.boring-container {
+  margin: 0 auto;
+  max-width: 28em;
+  padding: 0 var(--flow-space-h);
+  text-align: justify;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+p:not(:first-of-type) {
+  text-indent: 3em;
+}
+
+.the-grid {
+  display: block;
+  max-width: 42em;
+}
+
+footer {
+  margin-top: var(--flow-space);
+  padding-top: var(--flow-space);
+  text-align: center;
+  font-size: var(--text-sm);
+}
