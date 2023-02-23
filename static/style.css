@@ -68,6 +68,24 @@ p:not(:first-of-type) {
   position: relative;
 }
 
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: unset;
+  }
+  .bowls-container {
+    width: 192%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: unset;
+  }
+  .bowls-container {
+    width: 246%;
+  }
+}
+
 .bowls {
   display: grid;
   grid-gap: 1%;
