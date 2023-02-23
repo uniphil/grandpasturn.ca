@@ -61,35 +61,35 @@ p:not(:first-of-type) {
 
 .the-grid {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
-[data-background-image] {
-  background-image: var(--im);
-  background-size: cover;
+.bowls-container {
+  position: relative;
 }
 
 .bowls {
-/*  align-items: flex-start;*/
-  align-content: flex-start;
-  aspect-ratio: 1;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  height: 100%;
+  left: 0;
+  padding: 2.2% 1.7% 1.5% 2%;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
-.bowls > li {
-  margin: 0.5%;
-  width: 10.111111%;
-/*  aspect-ratio: 1;*/
-}
 .bowls > li > a {
-  aspect-ratio: 1;
   background: hsla(0, 0%, 0%, 0.3);
   display: block;
   width: 100%;
+  height: 100%;
 }
 .bowls > li > a:hover {
   background: hsla(0, 0%, 100%, 0.3);
+  transition: background 0.2s;
 }
 
 footer {
