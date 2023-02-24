@@ -28,7 +28,7 @@ jobs:
           node-version: 16
       - run: |
           npm ci
-          npm run build
+          NODE_ENV=production npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
