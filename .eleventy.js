@@ -9,7 +9,7 @@ module.exports = eleventyConfig => {
     outfile: '_site/static/overlay.js',
     bundle: true,
     target: 'es6',
-    minify: process.env.ELEVENTY_ENV === 'production',
+    minify: process.env.NODE_ENV === 'production',
     sourcemap: true
   }));
   return { dir: { input: 'pages' } };
