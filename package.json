@@ -12,6 +12,7 @@
     "url": "git+https://github.com/uniphil/grandpasturn.ca.git"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "esbuild": "^0.17.10"
   }
 }
