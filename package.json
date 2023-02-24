@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
-    "esbuild": "^0.17.10"
+    "esbuild": "^0.17.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

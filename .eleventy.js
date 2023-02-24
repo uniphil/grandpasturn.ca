@@ -5,7 +5,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
   eleventyConfig.addWatchTarget('./overlay/');
   eleventyConfig.on('afterBuild', () => esbuild.build({
-    entryPoints: ['overlay/index.js'],
+    entryPoints: ['overlay/index.jsx'],
     outfile: '_site/static/overlay.js',
     bundle: true,
     target: 'es6',
