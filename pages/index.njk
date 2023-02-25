@@ -17,6 +17,7 @@ layout: base
       {% for bowl in bowls %}
         <li>
           <a
+            id="{{ bowl.number }}"
             href="{{ ('/bowl/' + bowl.number + '/') | url }}"
             title="Bowl #{{ bowl.number }}"
             data-overlay-bowl="{{ bowl.number }}">

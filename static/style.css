@@ -59,6 +59,10 @@ p:not(:first-of-type) {
   text-indent: 3em;
 }
 
+ul.actual > li {
+  margin-left: 2em;
+}
+
 .the-grid {
   display: block;
   width: 100%;
@@ -109,6 +113,9 @@ p:not(:first-of-type) {
   background: hsla(0, 0%, 100%, 0.3);
   transition: background 0.2s;
 }
+.bowls > li > a:target {
+  background: hsla(0, 0%, 100%, 0.5);
+}
 
 .bowl-overlay {
   align-items: center;
@@ -128,6 +135,30 @@ p:not(:first-of-type) {
   box-shadow: 0.1em 0.2em 0.667em hsla(0, 0%, 0%, 0.333);
   margin: 1em;
   padding: 1em;
+}
+
+.bowl-detail {
+  display: flex;
+}
+
+.bowl-info p {
+  text-indent: 0;
+}
+
+.button {
+  background: dodgerblue;
+  border-radius: 0.667em;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  line-height: 1em;
+  padding: 0.55em 1em 0.45em;
+  text-decoration: none;
+}
+.button:hover,
+.button:active {
+  background: skyblue;
 }
 
 footer {
