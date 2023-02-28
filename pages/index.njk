@@ -8,11 +8,13 @@ layout: base
     {% include 'navigation.njk' %}
   </nav>
 
+
   <div class="bowls-container">
-    <img
-      src="{{ '/static/grid-sketch.jpg' | url }}"
-      alt="81 hand-turned wooden bowls on a home-made 9x9 compartment shelf"
-      class="the-grid" />
+    {% image './static/images/grid.tiff',
+             '81 hand-turned wooden bowls on a home-made 9x9 compartment shelf',
+             [600],
+             'x',
+             'the-grid' %}
     <ol class="bowls unlist">
       {% for bowl in bowls %}
         <li>
