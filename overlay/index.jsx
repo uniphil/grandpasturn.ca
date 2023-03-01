@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import bowls from '../pages/_data/bowls.json';
+import bowls from '../data/bowls.json';
 
 const numToBowl = bowls.reduce((a, b) => {
   a[b.number] = b;

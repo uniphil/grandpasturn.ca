@@ -25,7 +25,7 @@
 
 .container {
   margin: 0 auto;
-  max-width: 36em;
+  max-width: 672px;
 }
 
 .boring.container {
@@ -67,8 +67,8 @@ ul.actual > li {
 
 .the-grid {
   display: block;
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .bowls-container {
