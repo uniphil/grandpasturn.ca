@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
+    "images": "node process-images.js",
     "dev": "eleventy --serve"
   },
   "repository": {

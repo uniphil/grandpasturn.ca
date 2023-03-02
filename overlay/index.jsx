@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import bowls from '../data/bowls.json';
+import bowls from '../pages/_data/bowls.json';
+import images from '../pages/_data/images.json';
+const { walk, srcset, u } = require('../image-data-util');
 
 const numToBowl = bowls.reduce((a, b) => {
   a[b.number] = b;
@@ -8,18 +10,42 @@ const numToBowl = bowls.reduce((a, b) => {
 }, {});
 
 
+const Image = ({ dataPath, alt, className }) => {
+  console.log({ dataPath });
+  let image = walk(images, dataPath);
+  const sources = image.sources.map(s =>
+    <source type={`image/${s.type}`} srcset={srcset(s.files)} />);
+  return (
+    <picture>
+      {sources}
+      <img
+        class={className}
+        src={u(image.canonical.file)}
+        height={image.canonical.height}
+        width={image.canonical.width}
+        alt={alt} />
+    </picture>
+  );
+}
+
+
 class BowlOverlay extends React.Component {
   esc = () => window.location.hash = '';
   stop = e => e.stopPropagation();
   render() {
-    const bowl = numToBowl[this.props.num];
+    const { num } = this.props;
+    const bowl = numToBowl[num];
+
     return (
       <div className="bowl-overlay" onClick={this.esc}>
         <div className="overlay-content" onClick={this.stop}>
-          <h2>Bowl #{this.props.num}</h2>
+          <h2>Bowl #{num}</h2>
           <div className="bowl-detail flow left">
             <div className="bowl-images">
-              <img height="200" width="300" alt="" />
+              <Image
+                dataPath={`bowls.${num}.0.overlay`}
+                alt=""
+                className="overlay-image" />
             </div>
             <div className="bowl-info flow">
               <p>{bowl.description}</p>

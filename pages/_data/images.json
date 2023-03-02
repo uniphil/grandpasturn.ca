@@ -1,0 +1,174 @@
+{
+  "grid": {
+    "grid": {
+      "canonical": {
+        "height": 668,
+        "width": 672,
+        "file": "images/grid-672-G-jeAb5iW6.jpeg"
+      },
+      "sources": [
+        {
+          "type": "avif",
+          "files": [
+            {
+              "height": 668,
+              "width": 672,
+              "file": "images/grid-672-G-jeAb5iW6.avif"
+            },
+            {
+              "height": 1336,
+              "width": 1344,
+              "file": "images/grid-1344-G-jeAb5iW6.avif"
+            }
+          ]
+        },
+        {
+          "type": "jpeg",
+          "files": [
+            {
+              "height": 668,
+              "width": 672,
+              "file": "images/grid-672-G-jeAb5iW6.jpeg"
+            },
+            {
+              "height": 1336,
+              "width": 1344,
+              "file": "images/grid-1344-G-jeAb5iW6.jpeg"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "bowls": {
+    "1": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 500,
+            "width": 512,
+            "file": "images/bowls_1_cubby-512-nnUnydpV_X.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 500,
+                  "width": 512,
+                  "file": "images/bowls_1_cubby-512-nnUnydpV_X.avif"
+                },
+                {
+                  "height": 1001,
+                  "width": 1024,
+                  "file": "images/bowls_1_cubby-1024-nnUnydpV_X.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 500,
+                  "width": 512,
+                  "file": "images/bowls_1_cubby-512-nnUnydpV_X.jpeg"
+                },
+                {
+                  "height": 1001,
+                  "width": 1024,
+                  "file": "images/bowls_1_cubby-1024-nnUnydpV_X.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 470,
+            "width": 512,
+            "file": "images/bowls_2_cubby-512-dqZ7kO5aQG.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 470,
+                  "width": 512,
+                  "file": "images/bowls_2_cubby-512-dqZ7kO5aQG.avif"
+                },
+                {
+                  "height": 940,
+                  "width": 1024,
+                  "file": "images/bowls_2_cubby-1024-dqZ7kO5aQG.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 470,
+                  "width": 512,
+                  "file": "images/bowls_2_cubby-512-dqZ7kO5aQG.jpeg"
+                },
+                {
+                  "height": 940,
+                  "width": 1024,
+                  "file": "images/bowls_2_cubby-1024-dqZ7kO5aQG.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "3": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 478,
+            "width": 512,
+            "file": "images/bowls_3_cubby-512-pGlBLNGl6b.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 478,
+                  "width": 512,
+                  "file": "images/bowls_3_cubby-512-pGlBLNGl6b.avif"
+                },
+                {
+                  "height": 956,
+                  "width": 1024,
+                  "file": "images/bowls_3_cubby-1024-pGlBLNGl6b.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 478,
+                  "width": 512,
+                  "file": "images/bowls_3_cubby-512-pGlBLNGl6b.jpeg"
+                },
+                {
+                  "height": 956,
+                  "width": 1024,
+                  "file": "images/bowls_3_cubby-1024-pGlBLNGl6b.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

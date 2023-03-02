@@ -112,10 +112,12 @@ ul.actual > li {
   display: block;
   width: 100%;
   height: 100%;
+  transition: background 0.2s;
 }
 .bowls > li > a:hover {
-  background: hsla(0, 0%, 100%, 0.3);
-  transition: background 0.2s;
+  background: var(--bg);
+  opacity: 0.3;
+  transition: background 0.2s, opacity 0.2s;
 }
 .bowls > li > a:target {
   background: hsla(0, 0%, 100%, 0.5);
@@ -139,6 +141,11 @@ ul.actual > li {
   box-shadow: 0.1em 0.2em 0.667em hsla(0, 0%, 0%, 0.333);
   margin: 1em;
   padding: 1em;
+}
+
+.overlay-image {
+  max-width: 300px;
+  height: auto;
 }
 
 .bowl-detail {
@@ -171,4 +178,46 @@ footer {
   margin-top: var(--flow-space);
   padding-top: var(--flow-space);
   text-align: center;
+}
+
+/* remaining rules are from html5 boilerplate
+ * MIT licensed -- https://github.com/h5bp/html5-boilerplate/blob/a7820f12647fdb93b19340391ac4c60de15352ce/LICENSE.txt */
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
 }

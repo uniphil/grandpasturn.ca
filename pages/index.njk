@@ -10,7 +10,7 @@ layout: base
 
 
   <div class="bowls-container">
-    {% image 'images/grid.tiff',
+    {% image 'grid.grid',
              '81 hand-turned wooden bowls on a home-made 9x9 compartment shelf',
              'the-grid' %}
     <ol class="bowls unlist">
@@ -21,7 +21,9 @@ layout: base
             href="{{ ('/bowl/' + bowl.number + '/') | url }}"
             title="Bowl #{{ bowl.number }}"
             data-overlay-bowl="{{ bowl.number }}">
-            bowl #{{ bowl.number }}
+            <span class="visually-hidden focusable">
+              bowl #{{ bowl.number }}
+            </span>
           </a>
         </li>
       {% endfor %}
