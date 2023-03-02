@@ -11,8 +11,7 @@ const numToBowl = bowls.reduce((a, b) => {
 
 
 class BowlOverlay extends React.Component {
-  constructor({ num }) {
-    super();
+  componentDidMount() {
     addEventListener('keydown', this.handleKeyDown);
   }
 
@@ -110,7 +109,7 @@ class BowlOverlay extends React.Component {
             <button
               className="reset pointer close"
               title="close preview"
-              onClick={this.esc}>
+              onClick={this.close}>
               &times;
             </button>
           </div>
