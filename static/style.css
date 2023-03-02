@@ -142,16 +142,60 @@ ul.actual > li {
   height: 100vh;
   justify-content: center;
   left: 0;
+  padding: 1em;
   position: fixed;
   top: 0;
   width: 100vw;
+}
+
+.overlay-size {
+}
+
+.bowl-header {
+  align-items: baseline;
+  display: flex;
+  color: var(--bg);
+  justify-content: space-between;
+}
+
+.move {
+  text-decoration: none;
+  color: inherit;
+}
+.move:hover {
+  color: #fff;
+}
+.move.lr {
+  padding: 0 0.25em;
+}
+
+.bowl-header h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.close {
+  --size: 1em;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5em;
+  height: var(--size);
+  line-height: var(--size);
+  text-align: center;
+  width: var(--size);
+  margin: 0.333em;
+}
+.close:hover {
+  color: #fff;
 }
 
 .overlay-content {
   background: #fff;
   border-radius: 0.5em;
   box-shadow: 0.1em 0.2em 0.667em hsla(0, 0%, 0%, 0.333);
-  margin: 1em;
   padding: 1em;
 }
 

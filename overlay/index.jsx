@@ -37,31 +37,57 @@ const Image = ({ dataPath, alt, className }) => {
 class BowlOverlay extends React.Component {
   esc = () => window.location.hash = '';
   stop = e => e.stopPropagation();
+  leftButton() {
+    const num = parseInt(this.props.num, 10);
+    if (num % 9 === 1) return;
+    const target = num - 1;
+    return <a href={`#${target}`} class="move lr" title={`Bowl #${target}`}>« {target}</a>;
+  }
+  rightButton() {
+    const num = parseInt(this.props.num, 10);
+    if (num % 9 === 0) return;
+    const target = num + 1;
+    return <a href={`#${target}`} class="move lr" title={`Bowl #${target}`}>{target} »</a>;
+  }
   render() {
     const { num } = this.props;
     const bowl = numToBowl[num];
 
     return (
       <div className="bowl-overlay" onClick={this.esc}>
-        <div className="overlay-content" onClick={this.stop}>
-          <h2>Bowl #{num}</h2>
-          <div className="bowl-detail flow left">
-            <div className="bowl-images">
-              <Image
-                dataPath={`bowls.${num}.0.overlay`}
-                alt=""
-                className="overlay-image" />
+        <div class="overlay-size" onClick={this.stop}>
+          <div className="bowl-header">
+            <div>
+              {this.leftButton()}
+              {this.rightButton()}
             </div>
-            <div className="bowl-info flow">
-              <p>{bowl.description}</p>
-              <p>Completed {bowl.date}</p>
-              <ul className="actual">
-                <li>{bowl.source}</li>
-                <li>{bowl.feature}</li>
-              </ul>
-              <a className="button" href={this.props.href}>
-                Read more&hellip;
-              </a>
+            <h2>#{num}</h2>
+            <button
+              class="reset close"
+              title="close preview"
+              onClick={this.esc}>
+              &times;
+            </button>
+          </div>
+          <div className="overlay-content">
+            <div className="bowl-detail flow left">
+              <div className="bowl-images">
+                <Image
+                  dataPath={`bowls.${num}.0.overlay`}
+                  alt=""
+                  className="overlay-image" />
+              </div>
+              <div className="bowl-info flow">
+                <p>{bowl.description}</p>
+                <p>Completed {bowl.date}</p>
+                <ul className="actual">
+                  <li>{bowl.source}</li>
+                  <li>{bowl.feature}</li>
+                </ul>
+                <a className="button" href={this.props.href}>
+                  Read more&hellip;
+                </a>
+              </div>
             </div>
           </div>
         </div>
