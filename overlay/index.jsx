@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import bowls from '../pages/_data/bowls.json';
-import images from '../pages/_data/images.json';
-const { walk, srcset, u } = require('../image-data-util');
+import MoveButton from './MoveButton';
+import Image from './Image';
 
 const numToBowl = bowls.reduce((a, b) => {
   a[b.number] = b;
@@ -10,60 +10,105 @@ const numToBowl = bowls.reduce((a, b) => {
 }, {});
 
 
-const Image = ({ dataPath, alt, className }) => {
-  let image;
-  try {
-    image = walk(images, dataPath);
-  } catch (e) {
-    console.warn(`Failed to walk image dataPath "${dataPath}": ${e}`);
-    return <img src="error" alt="" />;
-  }
-  const sources = image.sources.map(s =>
-    <source type={`image/${s.type}`} srcset={srcset(s.files)} />);
-  return (
-    <picture>
-      {sources}
-      <img
-        class={className}
-        src={u(image.canonical.file)}
-        height={image.canonical.height}
-        width={image.canonical.width}
-        alt={alt} />
-    </picture>
-  );
-}
-
-
 class BowlOverlay extends React.Component {
-  esc = () => window.location.hash = '';
-  stop = e => e.stopPropagation();
-  leftButton() {
-    const num = parseInt(this.props.num, 10);
-    if (num % 9 === 1) return;
-    const target = num - 1;
-    return <a href={`#${target}`} class="move lr" title={`Bowl #${target}`}>« {target}</a>;
+  constructor({ num }) {
+    super();
+    addEventListener('keydown', this.handleKeyDown);
   }
-  rightButton() {
-    const num = parseInt(this.props.num, 10);
-    if (num % 9 === 0) return;
-    const target = num + 1;
-    return <a href={`#${target}`} class="move lr" title={`Bowl #${target}`}>{target} »</a>;
+
+  componentWillUnmount() {
+    removeEventListener('keydown', this.handleKeyDown);
   }
+
+  handleKeyDown = (e) => {
+    if (e.key === 'Escape' || e.keyCode === 13) {
+      this.close();
+    } else if (e.key === 'ArrowLeft' || e.keyCode === 37) {
+      this.goto(this.left());
+    } else if (e.key === 'ArrowUp' || e.keyCode == 38) {
+      this.goto(this.up());
+    } else if (e.key === 'ArrowRight' || e.keyCode === 39) {
+      this.goto(this.right());
+    } else if (e.key === 'ArrowDown' || e.keyCode === 40) {
+      this.goto(this.down());
+    }
+  };
+
+  close = () =>
+    window.location.hash = '';
+
+  goto = n => {
+    if (n) window.location.hash = n;
+  }
+
+  left = () => {
+    const v = parseInt(this.props.num, 10);
+    if (v <= 1) {
+      return;
+    } else if (v === 80) {
+      return 55;
+    } else {
+      return v - 1;
+    }
+  };
+
+  up = () => {
+    const v = parseInt(this.props.num, 10);
+    if (v <= 9) {
+      return;
+    } else if (v <= 55) {
+      return v - 9;
+    } else {
+      return v - 27;
+    }
+  };
+
+  right = () => {
+    const v = parseInt(this.props.num, 10);
+    if (v >= 81) {
+      return;
+    } else if (v === 55) {
+      return 80;
+    } else {
+      return v + 1;
+    }
+  };
+
+  down = () => {
+    const v = parseInt(this.props.num, 10);
+    if (v <= 46) {
+      return v + 9;
+    } else if (v <= 52) {
+      return;
+    } else if (v <= 54) {
+      return v + 27;
+    } else {
+      return;
+    }
+  };
+
+  stop = e =>
+    e.stopPropagation();
+
   render() {
     const { num } = this.props;
     const bowl = numToBowl[num];
 
     return (
-      <div className="bowl-overlay" onClick={this.esc}>
-        <div class="overlay-size" onClick={this.stop}>
+      <div className="bowl-overlay" onClick={this.close}>
+        <div className="overlay-size" onClick={this.stop}>
           <div className="bowl-header">
-            <div>
-              {this.leftButton()}
-              {this.rightButton()}
+            <div className="move-buttons flow left">
+              <MoveButton dir="left" n={this.left()} goto={this.goto} />
+              <div className="move-vertical-buttons">
+                <MoveButton dir="up" n={this.up()} goto={this.goto} />
+                <MoveButton dir="down" n={this.down()} goto={this.goto} />
+              </div>
+              <MoveButton dir="right" n={this.right()} goto={this.goto} />
             </div>
             <h2>#{num}</h2>
             <button
-              class="reset close"
+              className="reset pointer close"
               title="close preview"
               onClick={this.esc}>
               &times;
@@ -79,7 +124,7 @@ class BowlOverlay extends React.Component {
               </div>
               <div className="bowl-info flow">
                 <p>{bowl.description}</p>
-                <p>Completed {bowl.date}</p>
+                <p>{bowl.date}</p>
                 <ul className="actual">
                   <li>{bowl.source}</li>
                   <li>{bowl.feature}</li>
@@ -116,8 +161,3 @@ function nav(u) {
 }
 nav(window.location);
 addEventListener('hashchange', e => nav(new URL(e.newURL)));
-addEventListener('keydown', e => {
-  if (e.key === 'Escape' || e.keyCode === 13) {
-    window.location.hash = '';
-  }
-});

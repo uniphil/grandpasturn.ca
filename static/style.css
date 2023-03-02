@@ -72,6 +72,22 @@ ul.actual > li {
   margin-left: 2em;
 }
 
+button.reset {
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.pointer[disabled] {
+  cursor: inherit;
+}
+
 .the-grid {
   display: block;
   height: auto;
@@ -166,6 +182,14 @@ ul.actual > li {
   justify-content: space-between;
 }
 
+.move-buttons {
+  display: flex;
+}
+.move-vertical-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
 .move {
   text-decoration: none;
   color: inherit;
@@ -184,10 +208,6 @@ ul.actual > li {
 
 .close {
   --size: 1em;
-  background: none;
-  border: none;
-  color: inherit;
-  cursor: pointer;
   display: block;
   font-size: 1.5em;
   height: var(--size);
