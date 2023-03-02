@@ -1,9 +1,17 @@
 :root {
-  --bg: #faecd2;
+  --h: 38;
+  --s: 80%;
+  --l: 90%;
+  --fh: 16;
+  --fs: 83%;
+  --fl: 12%;
+/*  --bg: #faecd2;*/
+  --bg: hsl(var(--h), var(--s), var(--l));
   --flow-space: 1.5em;
   --flow-space-h: 1em;
   --text-sm: 0.75em;
   background-color: var(--bg);
+  color: hsl(var(--fh), var(--fs), var(--fl));
   font-size: 14pt;
   line-height: 1.5em;
 }
@@ -100,7 +108,7 @@ ul.actual > li {
   grid-template-rows: repeat(9, 1fr);
   height: 100%;
   left: 0;
-  padding: 1.9em 2em 2.1em 1.9em;
+  padding: 1.8em 1.9em 1.5em 1.8em;
   position: absolute;
   top: 0;
   width: 100%;
@@ -125,7 +133,7 @@ ul.actual > li {
   opacity: 0;
   position: absolute;
   right: var(--blur);
-  top: 1em;
+  top: var(--blur);
   transition: opacity 0.2s;
 }
 .bowls > li > a:hover:before {

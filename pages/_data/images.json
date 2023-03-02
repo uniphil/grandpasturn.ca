@@ -513,6 +513,1984 @@
           ]
         }
       }
+    ],
+    "12": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 505,
+            "width": 512,
+            "file": "images/bowls_12_cubby-512-i7RzP1x-9m.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 505,
+                  "width": 512,
+                  "file": "images/bowls_12_cubby-512-i7RzP1x-9m.avif"
+                },
+                {
+                  "height": 1011,
+                  "width": 1024,
+                  "file": "images/bowls_12_cubby-1024-i7RzP1x-9m.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 505,
+                  "width": 512,
+                  "file": "images/bowls_12_cubby-512-i7RzP1x-9m.jpeg"
+                },
+                {
+                  "height": 1011,
+                  "width": 1024,
+                  "file": "images/bowls_12_cubby-1024-i7RzP1x-9m.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "13": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 519,
+            "width": 512,
+            "file": "images/bowls_13_cubby-512-4AS2kk-PNb.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 519,
+                  "width": 512,
+                  "file": "images/bowls_13_cubby-512-4AS2kk-PNb.avif"
+                },
+                {
+                  "height": 1039,
+                  "width": 1024,
+                  "file": "images/bowls_13_cubby-1024-4AS2kk-PNb.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 519,
+                  "width": 512,
+                  "file": "images/bowls_13_cubby-512-4AS2kk-PNb.jpeg"
+                },
+                {
+                  "height": 1039,
+                  "width": 1024,
+                  "file": "images/bowls_13_cubby-1024-4AS2kk-PNb.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "14": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 503,
+            "width": 512,
+            "file": "images/bowls_14_cubby-512-9dY-bCLAmF.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 503,
+                  "width": 512,
+                  "file": "images/bowls_14_cubby-512-9dY-bCLAmF.avif"
+                },
+                {
+                  "height": 1006,
+                  "width": 1024,
+                  "file": "images/bowls_14_cubby-1024-9dY-bCLAmF.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 503,
+                  "width": 512,
+                  "file": "images/bowls_14_cubby-512-9dY-bCLAmF.jpeg"
+                },
+                {
+                  "height": 1006,
+                  "width": 1024,
+                  "file": "images/bowls_14_cubby-1024-9dY-bCLAmF.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "15": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 520,
+            "width": 512,
+            "file": "images/bowls_15_cubby-512-Pawhjg360A.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 520,
+                  "width": 512,
+                  "file": "images/bowls_15_cubby-512-Pawhjg360A.avif"
+                },
+                {
+                  "height": 1040,
+                  "width": 1024,
+                  "file": "images/bowls_15_cubby-1024-Pawhjg360A.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 520,
+                  "width": 512,
+                  "file": "images/bowls_15_cubby-512-Pawhjg360A.jpeg"
+                },
+                {
+                  "height": 1040,
+                  "width": 1024,
+                  "file": "images/bowls_15_cubby-1024-Pawhjg360A.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "16": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 502,
+            "width": 512,
+            "file": "images/bowls_16_cubby-512-kseLf2S6mb.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 502,
+                  "width": 512,
+                  "file": "images/bowls_16_cubby-512-kseLf2S6mb.avif"
+                },
+                {
+                  "height": 1005,
+                  "width": 1024,
+                  "file": "images/bowls_16_cubby-1024-kseLf2S6mb.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 502,
+                  "width": 512,
+                  "file": "images/bowls_16_cubby-512-kseLf2S6mb.jpeg"
+                },
+                {
+                  "height": 1005,
+                  "width": 1024,
+                  "file": "images/bowls_16_cubby-1024-kseLf2S6mb.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "17": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 531,
+            "width": 512,
+            "file": "images/bowls_17_cubby-512-sWP5C1VG2c.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 531,
+                  "width": 512,
+                  "file": "images/bowls_17_cubby-512-sWP5C1VG2c.avif"
+                },
+                {
+                  "height": 1062,
+                  "width": 1024,
+                  "file": "images/bowls_17_cubby-1024-sWP5C1VG2c.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 531,
+                  "width": 512,
+                  "file": "images/bowls_17_cubby-512-sWP5C1VG2c.jpeg"
+                },
+                {
+                  "height": 1062,
+                  "width": 1024,
+                  "file": "images/bowls_17_cubby-1024-sWP5C1VG2c.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "18": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 528,
+            "width": 512,
+            "file": "images/bowls_18_cubby-512-Asum2K8YFT.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 528,
+                  "width": 512,
+                  "file": "images/bowls_18_cubby-512-Asum2K8YFT.avif"
+                },
+                {
+                  "height": 1056,
+                  "width": 1024,
+                  "file": "images/bowls_18_cubby-1024-Asum2K8YFT.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 528,
+                  "width": 512,
+                  "file": "images/bowls_18_cubby-512-Asum2K8YFT.jpeg"
+                },
+                {
+                  "height": 1056,
+                  "width": 1024,
+                  "file": "images/bowls_18_cubby-1024-Asum2K8YFT.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "19": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 533,
+            "width": 512,
+            "file": "images/bowls_19_cubby-512-f3beOFRWnq.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 533,
+                  "width": 512,
+                  "file": "images/bowls_19_cubby-512-f3beOFRWnq.avif"
+                },
+                {
+                  "height": 1066,
+                  "width": 1024,
+                  "file": "images/bowls_19_cubby-1024-f3beOFRWnq.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 533,
+                  "width": 512,
+                  "file": "images/bowls_19_cubby-512-f3beOFRWnq.jpeg"
+                },
+                {
+                  "height": 1066,
+                  "width": 1024,
+                  "file": "images/bowls_19_cubby-1024-f3beOFRWnq.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "20": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 530,
+            "width": 512,
+            "file": "images/bowls_20_cubby-512-zMxNbnIIpf.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 530,
+                  "width": 512,
+                  "file": "images/bowls_20_cubby-512-zMxNbnIIpf.avif"
+                },
+                {
+                  "height": 1060,
+                  "width": 1024,
+                  "file": "images/bowls_20_cubby-1024-zMxNbnIIpf.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 530,
+                  "width": 512,
+                  "file": "images/bowls_20_cubby-512-zMxNbnIIpf.jpeg"
+                },
+                {
+                  "height": 1060,
+                  "width": 1024,
+                  "file": "images/bowls_20_cubby-1024-zMxNbnIIpf.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "21": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 521,
+            "width": 512,
+            "file": "images/bowls_21_cubby-512-cONPVjD0Ud.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 521,
+                  "width": 512,
+                  "file": "images/bowls_21_cubby-512-cONPVjD0Ud.avif"
+                },
+                {
+                  "height": 1043,
+                  "width": 1024,
+                  "file": "images/bowls_21_cubby-1024-cONPVjD0Ud.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 521,
+                  "width": 512,
+                  "file": "images/bowls_21_cubby-512-cONPVjD0Ud.jpeg"
+                },
+                {
+                  "height": 1043,
+                  "width": 1024,
+                  "file": "images/bowls_21_cubby-1024-cONPVjD0Ud.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "22": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 504,
+            "width": 512,
+            "file": "images/bowls_22_cubby-512-hOMzKkGiTD.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 504,
+                  "width": 512,
+                  "file": "images/bowls_22_cubby-512-hOMzKkGiTD.avif"
+                },
+                {
+                  "height": 1009,
+                  "width": 1024,
+                  "file": "images/bowls_22_cubby-1024-hOMzKkGiTD.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 504,
+                  "width": 512,
+                  "file": "images/bowls_22_cubby-512-hOMzKkGiTD.jpeg"
+                },
+                {
+                  "height": 1009,
+                  "width": 1024,
+                  "file": "images/bowls_22_cubby-1024-hOMzKkGiTD.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "23": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 505,
+            "width": 512,
+            "file": "images/bowls_23_cubby-512-Ym-bLPudPZ.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 505,
+                  "width": 512,
+                  "file": "images/bowls_23_cubby-512-Ym-bLPudPZ.avif"
+                },
+                {
+                  "height": 1010,
+                  "width": 1024,
+                  "file": "images/bowls_23_cubby-1024-Ym-bLPudPZ.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 505,
+                  "width": 512,
+                  "file": "images/bowls_23_cubby-512-Ym-bLPudPZ.jpeg"
+                },
+                {
+                  "height": 1010,
+                  "width": 1024,
+                  "file": "images/bowls_23_cubby-1024-Ym-bLPudPZ.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "24": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 526,
+            "width": 512,
+            "file": "images/bowls_24_cubby-512-EX8P5gTx5t.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 526,
+                  "width": 512,
+                  "file": "images/bowls_24_cubby-512-EX8P5gTx5t.avif"
+                },
+                {
+                  "height": 1053,
+                  "width": 1024,
+                  "file": "images/bowls_24_cubby-1024-EX8P5gTx5t.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 526,
+                  "width": 512,
+                  "file": "images/bowls_24_cubby-512-EX8P5gTx5t.jpeg"
+                },
+                {
+                  "height": 1053,
+                  "width": 1024,
+                  "file": "images/bowls_24_cubby-1024-EX8P5gTx5t.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "25": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 501,
+            "width": 512,
+            "file": "images/bowls_25_cubby-512-nSxDYa1yUi.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 501,
+                  "width": 512,
+                  "file": "images/bowls_25_cubby-512-nSxDYa1yUi.avif"
+                },
+                {
+                  "height": 1003,
+                  "width": 1024,
+                  "file": "images/bowls_25_cubby-1024-nSxDYa1yUi.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 501,
+                  "width": 512,
+                  "file": "images/bowls_25_cubby-512-nSxDYa1yUi.jpeg"
+                },
+                {
+                  "height": 1003,
+                  "width": 1024,
+                  "file": "images/bowls_25_cubby-1024-nSxDYa1yUi.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "26": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 502,
+            "width": 512,
+            "file": "images/bowls_26_cubby-512-yZVZB3W4Ao.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 502,
+                  "width": 512,
+                  "file": "images/bowls_26_cubby-512-yZVZB3W4Ao.avif"
+                },
+                {
+                  "height": 1004,
+                  "width": 1024,
+                  "file": "images/bowls_26_cubby-1024-yZVZB3W4Ao.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 502,
+                  "width": 512,
+                  "file": "images/bowls_26_cubby-512-yZVZB3W4Ao.jpeg"
+                },
+                {
+                  "height": 1004,
+                  "width": 1024,
+                  "file": "images/bowls_26_cubby-1024-yZVZB3W4Ao.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "27": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 544,
+            "width": 512,
+            "file": "images/bowls_27_cubby-512-JFN_-qV-nt.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 544,
+                  "width": 512,
+                  "file": "images/bowls_27_cubby-512-JFN_-qV-nt.avif"
+                },
+                {
+                  "height": 1088,
+                  "width": 1024,
+                  "file": "images/bowls_27_cubby-1024-JFN_-qV-nt.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 544,
+                  "width": 512,
+                  "file": "images/bowls_27_cubby-512-JFN_-qV-nt.jpeg"
+                },
+                {
+                  "height": 1088,
+                  "width": 1024,
+                  "file": "images/bowls_27_cubby-1024-JFN_-qV-nt.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "28": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 505,
+            "width": 512,
+            "file": "images/bowls_28_cubby-512-aNU5i3nf1H.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 505,
+                  "width": 512,
+                  "file": "images/bowls_28_cubby-512-aNU5i3nf1H.avif"
+                },
+                {
+                  "height": 1011,
+                  "width": 1024,
+                  "file": "images/bowls_28_cubby-1024-aNU5i3nf1H.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 505,
+                  "width": 512,
+                  "file": "images/bowls_28_cubby-512-aNU5i3nf1H.jpeg"
+                },
+                {
+                  "height": 1011,
+                  "width": 1024,
+                  "file": "images/bowls_28_cubby-1024-aNU5i3nf1H.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "29": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 495,
+            "width": 512,
+            "file": "images/bowls_29_cubby-512-_-FOIC5LHk.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 495,
+                  "width": 512,
+                  "file": "images/bowls_29_cubby-512-_-FOIC5LHk.avif"
+                },
+                {
+                  "height": 990,
+                  "width": 1024,
+                  "file": "images/bowls_29_cubby-1024-_-FOIC5LHk.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 495,
+                  "width": 512,
+                  "file": "images/bowls_29_cubby-512-_-FOIC5LHk.jpeg"
+                },
+                {
+                  "height": 990,
+                  "width": 1024,
+                  "file": "images/bowls_29_cubby-1024-_-FOIC5LHk.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "30": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 506,
+            "width": 512,
+            "file": "images/bowls_30_cubby-512-TtDaQ98Zi-.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 506,
+                  "width": 512,
+                  "file": "images/bowls_30_cubby-512-TtDaQ98Zi-.avif"
+                },
+                {
+                  "height": 1012,
+                  "width": 1024,
+                  "file": "images/bowls_30_cubby-1024-TtDaQ98Zi-.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 506,
+                  "width": 512,
+                  "file": "images/bowls_30_cubby-512-TtDaQ98Zi-.jpeg"
+                },
+                {
+                  "height": 1012,
+                  "width": 1024,
+                  "file": "images/bowls_30_cubby-1024-TtDaQ98Zi-.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "31": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 503,
+            "width": 512,
+            "file": "images/bowls_31_cubby-512-KnIYVwGAiN.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 503,
+                  "width": 512,
+                  "file": "images/bowls_31_cubby-512-KnIYVwGAiN.avif"
+                },
+                {
+                  "height": 1007,
+                  "width": 1024,
+                  "file": "images/bowls_31_cubby-1024-KnIYVwGAiN.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 503,
+                  "width": 512,
+                  "file": "images/bowls_31_cubby-512-KnIYVwGAiN.jpeg"
+                },
+                {
+                  "height": 1007,
+                  "width": 1024,
+                  "file": "images/bowls_31_cubby-1024-KnIYVwGAiN.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "32": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 503,
+            "width": 512,
+            "file": "images/bowls_32_cubby-512-u600KEm53C.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 503,
+                  "width": 512,
+                  "file": "images/bowls_32_cubby-512-u600KEm53C.avif"
+                },
+                {
+                  "height": 1006,
+                  "width": 1024,
+                  "file": "images/bowls_32_cubby-1024-u600KEm53C.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 503,
+                  "width": 512,
+                  "file": "images/bowls_32_cubby-512-u600KEm53C.jpeg"
+                },
+                {
+                  "height": 1006,
+                  "width": 1024,
+                  "file": "images/bowls_32_cubby-1024-u600KEm53C.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "33": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 493,
+            "width": 512,
+            "file": "images/bowls_33_cubby-512-6MCStt8kPj.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 493,
+                  "width": 512,
+                  "file": "images/bowls_33_cubby-512-6MCStt8kPj.avif"
+                },
+                {
+                  "height": 986,
+                  "width": 1024,
+                  "file": "images/bowls_33_cubby-1024-6MCStt8kPj.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 493,
+                  "width": 512,
+                  "file": "images/bowls_33_cubby-512-6MCStt8kPj.jpeg"
+                },
+                {
+                  "height": 986,
+                  "width": 1024,
+                  "file": "images/bowls_33_cubby-1024-6MCStt8kPj.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "34": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 489,
+            "width": 512,
+            "file": "images/bowls_34_cubby-512-JoPdIOcD6c.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 489,
+                  "width": 512,
+                  "file": "images/bowls_34_cubby-512-JoPdIOcD6c.avif"
+                },
+                {
+                  "height": 979,
+                  "width": 1024,
+                  "file": "images/bowls_34_cubby-1024-JoPdIOcD6c.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 489,
+                  "width": 512,
+                  "file": "images/bowls_34_cubby-512-JoPdIOcD6c.jpeg"
+                },
+                {
+                  "height": 979,
+                  "width": 1024,
+                  "file": "images/bowls_34_cubby-1024-JoPdIOcD6c.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "35": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 516,
+            "width": 512,
+            "file": "images/bowls_35_cubby-512-sJ4NO7XtFJ.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 516,
+                  "width": 512,
+                  "file": "images/bowls_35_cubby-512-sJ4NO7XtFJ.avif"
+                },
+                {
+                  "height": 1032,
+                  "width": 1024,
+                  "file": "images/bowls_35_cubby-1024-sJ4NO7XtFJ.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 516,
+                  "width": 512,
+                  "file": "images/bowls_35_cubby-512-sJ4NO7XtFJ.jpeg"
+                },
+                {
+                  "height": 1032,
+                  "width": 1024,
+                  "file": "images/bowls_35_cubby-1024-sJ4NO7XtFJ.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "36": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 525,
+            "width": 512,
+            "file": "images/bowls_36_cubby-512-kE-nrhNbwd.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 525,
+                  "width": 512,
+                  "file": "images/bowls_36_cubby-512-kE-nrhNbwd.avif"
+                },
+                {
+                  "height": 1051,
+                  "width": 1024,
+                  "file": "images/bowls_36_cubby-1024-kE-nrhNbwd.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 525,
+                  "width": 512,
+                  "file": "images/bowls_36_cubby-512-kE-nrhNbwd.jpeg"
+                },
+                {
+                  "height": 1051,
+                  "width": 1024,
+                  "file": "images/bowls_36_cubby-1024-kE-nrhNbwd.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "37": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 504,
+            "width": 512,
+            "file": "images/bowls_37_cubby-512-R2xtZF_azY.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 504,
+                  "width": 512,
+                  "file": "images/bowls_37_cubby-512-R2xtZF_azY.avif"
+                },
+                {
+                  "height": 1009,
+                  "width": 1024,
+                  "file": "images/bowls_37_cubby-1024-R2xtZF_azY.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 504,
+                  "width": 512,
+                  "file": "images/bowls_37_cubby-512-R2xtZF_azY.jpeg"
+                },
+                {
+                  "height": 1009,
+                  "width": 1024,
+                  "file": "images/bowls_37_cubby-1024-R2xtZF_azY.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "38": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 501,
+            "width": 512,
+            "file": "images/bowls_38_cubby-512-HAJEh3REws.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 501,
+                  "width": 512,
+                  "file": "images/bowls_38_cubby-512-HAJEh3REws.avif"
+                },
+                {
+                  "height": 1002,
+                  "width": 1024,
+                  "file": "images/bowls_38_cubby-1024-HAJEh3REws.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 501,
+                  "width": 512,
+                  "file": "images/bowls_38_cubby-512-HAJEh3REws.jpeg"
+                },
+                {
+                  "height": 1002,
+                  "width": 1024,
+                  "file": "images/bowls_38_cubby-1024-HAJEh3REws.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "39": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 511,
+            "width": 512,
+            "file": "images/bowls_39_cubby-512-wmzegU8Rp8.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 511,
+                  "width": 512,
+                  "file": "images/bowls_39_cubby-512-wmzegU8Rp8.avif"
+                },
+                {
+                  "height": 1022,
+                  "width": 1024,
+                  "file": "images/bowls_39_cubby-1024-wmzegU8Rp8.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 511,
+                  "width": 512,
+                  "file": "images/bowls_39_cubby-512-wmzegU8Rp8.jpeg"
+                },
+                {
+                  "height": 1022,
+                  "width": 1024,
+                  "file": "images/bowls_39_cubby-1024-wmzegU8Rp8.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "40": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 512,
+            "width": 512,
+            "file": "images/bowls_40_cubby-512-hwwb1OiD-C.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 512,
+                  "width": 512,
+                  "file": "images/bowls_40_cubby-512-hwwb1OiD-C.avif"
+                },
+                {
+                  "height": 1024,
+                  "width": 1024,
+                  "file": "images/bowls_40_cubby-1024-hwwb1OiD-C.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 512,
+                  "width": 512,
+                  "file": "images/bowls_40_cubby-512-hwwb1OiD-C.jpeg"
+                },
+                {
+                  "height": 1024,
+                  "width": 1024,
+                  "file": "images/bowls_40_cubby-1024-hwwb1OiD-C.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "41": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 493,
+            "width": 512,
+            "file": "images/bowls_41_cubby-512-XoXV77SHhi.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 493,
+                  "width": 512,
+                  "file": "images/bowls_41_cubby-512-XoXV77SHhi.avif"
+                },
+                {
+                  "height": 986,
+                  "width": 1024,
+                  "file": "images/bowls_41_cubby-1024-XoXV77SHhi.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 493,
+                  "width": 512,
+                  "file": "images/bowls_41_cubby-512-XoXV77SHhi.jpeg"
+                },
+                {
+                  "height": 986,
+                  "width": 1024,
+                  "file": "images/bowls_41_cubby-1024-XoXV77SHhi.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "42": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 516,
+            "width": 512,
+            "file": "images/bowls_42_cubby-512-NBrNHTenCr.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 516,
+                  "width": 512,
+                  "file": "images/bowls_42_cubby-512-NBrNHTenCr.avif"
+                },
+                {
+                  "height": 1033,
+                  "width": 1024,
+                  "file": "images/bowls_42_cubby-1024-NBrNHTenCr.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 516,
+                  "width": 512,
+                  "file": "images/bowls_42_cubby-512-NBrNHTenCr.jpeg"
+                },
+                {
+                  "height": 1033,
+                  "width": 1024,
+                  "file": "images/bowls_42_cubby-1024-NBrNHTenCr.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "43": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 510,
+            "width": 512,
+            "file": "images/bowls_43_cubby-512-GldJNBxrCr.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 510,
+                  "width": 512,
+                  "file": "images/bowls_43_cubby-512-GldJNBxrCr.avif"
+                },
+                {
+                  "height": 1020,
+                  "width": 1024,
+                  "file": "images/bowls_43_cubby-1024-GldJNBxrCr.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 510,
+                  "width": 512,
+                  "file": "images/bowls_43_cubby-512-GldJNBxrCr.jpeg"
+                },
+                {
+                  "height": 1020,
+                  "width": 1024,
+                  "file": "images/bowls_43_cubby-1024-GldJNBxrCr.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "44": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 515,
+            "width": 512,
+            "file": "images/bowls_44_cubby-512-WUd5EFQxfv.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 515,
+                  "width": 512,
+                  "file": "images/bowls_44_cubby-512-WUd5EFQxfv.avif"
+                },
+                {
+                  "height": 1030,
+                  "width": 1024,
+                  "file": "images/bowls_44_cubby-1024-WUd5EFQxfv.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 515,
+                  "width": 512,
+                  "file": "images/bowls_44_cubby-512-WUd5EFQxfv.jpeg"
+                },
+                {
+                  "height": 1030,
+                  "width": 1024,
+                  "file": "images/bowls_44_cubby-1024-WUd5EFQxfv.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "45": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 533,
+            "width": 512,
+            "file": "images/bowls_45_cubby-512-w1mXARiaZV.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 533,
+                  "width": 512,
+                  "file": "images/bowls_45_cubby-512-w1mXARiaZV.avif"
+                },
+                {
+                  "height": 1066,
+                  "width": 1024,
+                  "file": "images/bowls_45_cubby-1024-w1mXARiaZV.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 533,
+                  "width": 512,
+                  "file": "images/bowls_45_cubby-512-w1mXARiaZV.jpeg"
+                },
+                {
+                  "height": 1066,
+                  "width": 1024,
+                  "file": "images/bowls_45_cubby-1024-w1mXARiaZV.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "46": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 520,
+            "width": 512,
+            "file": "images/bowls_46_cubby-512-CAWGAWXIRy.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 520,
+                  "width": 512,
+                  "file": "images/bowls_46_cubby-512-CAWGAWXIRy.avif"
+                },
+                {
+                  "height": 1041,
+                  "width": 1024,
+                  "file": "images/bowls_46_cubby-1024-CAWGAWXIRy.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 520,
+                  "width": 512,
+                  "file": "images/bowls_46_cubby-512-CAWGAWXIRy.jpeg"
+                },
+                {
+                  "height": 1041,
+                  "width": 1024,
+                  "file": "images/bowls_46_cubby-1024-CAWGAWXIRy.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "47": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 510,
+            "width": 512,
+            "file": "images/bowls_47_cubby-512-L59jvocHWp.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 510,
+                  "width": 512,
+                  "file": "images/bowls_47_cubby-512-L59jvocHWp.avif"
+                },
+                {
+                  "height": 1021,
+                  "width": 1024,
+                  "file": "images/bowls_47_cubby-1024-L59jvocHWp.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 510,
+                  "width": 512,
+                  "file": "images/bowls_47_cubby-512-L59jvocHWp.jpeg"
+                },
+                {
+                  "height": 1021,
+                  "width": 1024,
+                  "file": "images/bowls_47_cubby-1024-L59jvocHWp.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "48": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 498,
+            "width": 512,
+            "file": "images/bowls_48_cubby-512-kB7O4Vj2gy.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 498,
+                  "width": 512,
+                  "file": "images/bowls_48_cubby-512-kB7O4Vj2gy.avif"
+                },
+                {
+                  "height": 997,
+                  "width": 1024,
+                  "file": "images/bowls_48_cubby-1024-kB7O4Vj2gy.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 498,
+                  "width": 512,
+                  "file": "images/bowls_48_cubby-512-kB7O4Vj2gy.jpeg"
+                },
+                {
+                  "height": 997,
+                  "width": 1024,
+                  "file": "images/bowls_48_cubby-1024-kB7O4Vj2gy.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "49": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 515,
+            "width": 512,
+            "file": "images/bowls_49_cubby-512-W3P355t4xT.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 515,
+                  "width": 512,
+                  "file": "images/bowls_49_cubby-512-W3P355t4xT.avif"
+                },
+                {
+                  "height": 1030,
+                  "width": 1024,
+                  "file": "images/bowls_49_cubby-1024-W3P355t4xT.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 515,
+                  "width": 512,
+                  "file": "images/bowls_49_cubby-512-W3P355t4xT.jpeg"
+                },
+                {
+                  "height": 1030,
+                  "width": 1024,
+                  "file": "images/bowls_49_cubby-1024-W3P355t4xT.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "50": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 507,
+            "width": 512,
+            "file": "images/bowls_50_cubby-512--3-FRVKhZ1.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 507,
+                  "width": 512,
+                  "file": "images/bowls_50_cubby-512--3-FRVKhZ1.avif"
+                },
+                {
+                  "height": 1014,
+                  "width": 1024,
+                  "file": "images/bowls_50_cubby-1024--3-FRVKhZ1.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 507,
+                  "width": 512,
+                  "file": "images/bowls_50_cubby-512--3-FRVKhZ1.jpeg"
+                },
+                {
+                  "height": 1014,
+                  "width": 1024,
+                  "file": "images/bowls_50_cubby-1024--3-FRVKhZ1.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "51": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 512,
+            "width": 512,
+            "file": "images/bowls_51_cubby-512-_43GOF6hvU.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 512,
+                  "width": 512,
+                  "file": "images/bowls_51_cubby-512-_43GOF6hvU.avif"
+                },
+                {
+                  "height": 1024,
+                  "width": 1024,
+                  "file": "images/bowls_51_cubby-1024-_43GOF6hvU.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 512,
+                  "width": 512,
+                  "file": "images/bowls_51_cubby-512-_43GOF6hvU.jpeg"
+                },
+                {
+                  "height": 1024,
+                  "width": 1024,
+                  "file": "images/bowls_51_cubby-1024-_43GOF6hvU.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "52": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 506,
+            "width": 512,
+            "file": "images/bowls_52_cubby-512--ZOl5Ac0eE.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 506,
+                  "width": 512,
+                  "file": "images/bowls_52_cubby-512--ZOl5Ac0eE.avif"
+                },
+                {
+                  "height": 1012,
+                  "width": 1024,
+                  "file": "images/bowls_52_cubby-1024--ZOl5Ac0eE.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 506,
+                  "width": 512,
+                  "file": "images/bowls_52_cubby-512--ZOl5Ac0eE.jpeg"
+                },
+                {
+                  "height": 1012,
+                  "width": 1024,
+                  "file": "images/bowls_52_cubby-1024--ZOl5Ac0eE.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "53": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 525,
+            "width": 512,
+            "file": "images/bowls_53_cubby-512-1jhA2oxTLJ.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 525,
+                  "width": 512,
+                  "file": "images/bowls_53_cubby-512-1jhA2oxTLJ.avif"
+                },
+                {
+                  "height": 1050,
+                  "width": 1024,
+                  "file": "images/bowls_53_cubby-1024-1jhA2oxTLJ.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 525,
+                  "width": 512,
+                  "file": "images/bowls_53_cubby-512-1jhA2oxTLJ.jpeg"
+                },
+                {
+                  "height": 1050,
+                  "width": 1024,
+                  "file": "images/bowls_53_cubby-1024-1jhA2oxTLJ.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "54": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 532,
+            "width": 512,
+            "file": "images/bowls_54_cubby-512-LONCVpKa-w.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 532,
+                  "width": 512,
+                  "file": "images/bowls_54_cubby-512-LONCVpKa-w.avif"
+                },
+                {
+                  "height": 1064,
+                  "width": 1024,
+                  "file": "images/bowls_54_cubby-1024-LONCVpKa-w.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 532,
+                  "width": 512,
+                  "file": "images/bowls_54_cubby-512-LONCVpKa-w.jpeg"
+                },
+                {
+                  "height": 1064,
+                  "width": 1024,
+                  "file": "images/bowls_54_cubby-1024-LONCVpKa-w.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "55": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 517,
+            "width": 512,
+            "file": "images/bowls_55_cubby-512-TxekZAWwF1.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 517,
+                  "width": 512,
+                  "file": "images/bowls_55_cubby-512-TxekZAWwF1.avif"
+                },
+                {
+                  "height": 1034,
+                  "width": 1024,
+                  "file": "images/bowls_55_cubby-1024-TxekZAWwF1.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 517,
+                  "width": 512,
+                  "file": "images/bowls_55_cubby-512-TxekZAWwF1.jpeg"
+                },
+                {
+                  "height": 1034,
+                  "width": 1024,
+                  "file": "images/bowls_55_cubby-1024-TxekZAWwF1.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "80": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 492,
+            "width": 512,
+            "file": "images/bowls_80_cubby-512-hhucPskXi_.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 492,
+                  "width": 512,
+                  "file": "images/bowls_80_cubby-512-hhucPskXi_.avif"
+                },
+                {
+                  "height": 985,
+                  "width": 1024,
+                  "file": "images/bowls_80_cubby-1024-hhucPskXi_.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 492,
+                  "width": 512,
+                  "file": "images/bowls_80_cubby-512-hhucPskXi_.jpeg"
+                },
+                {
+                  "height": 985,
+                  "width": 1024,
+                  "file": "images/bowls_80_cubby-1024-hhucPskXi_.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "81": [
+      {
+        "overlay": {
+          "canonical": {
+            "height": 480,
+            "width": 512,
+            "file": "images/bowls_81_cubby-512-ebrszZT5ap.jpeg"
+          },
+          "sources": [
+            {
+              "type": "avif",
+              "files": [
+                {
+                  "height": 480,
+                  "width": 512,
+                  "file": "images/bowls_81_cubby-512-ebrszZT5ap.avif"
+                },
+                {
+                  "height": 961,
+                  "width": 1024,
+                  "file": "images/bowls_81_cubby-1024-ebrszZT5ap.avif"
+                }
+              ]
+            },
+            {
+              "type": "jpeg",
+              "files": [
+                {
+                  "height": 480,
+                  "width": 512,
+                  "file": "images/bowls_81_cubby-512-ebrszZT5ap.jpeg"
+                },
+                {
+                  "height": 961,
+                  "width": 1024,
+                  "file": "images/bowls_81_cubby-1024-ebrszZT5ap.jpeg"
+                }
+              ]
+            }
+          ]
+        }
+      }
     ]
   }
 }
