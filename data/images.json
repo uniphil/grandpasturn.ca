@@ -8,7 +8,15 @@
     "sources": {
       "1": ["bowls/1/cubby.tiff"],
       "2": ["bowls/2/cubby.tiff"],
-      "3": ["bowls/3/cubby.tiff"]
+      "3": ["bowls/3/cubby.tiff"],
+      "4": ["bowls/4/cubby.tiff"],
+      "5": ["bowls/5/cubby.tiff"],
+      "6": ["bowls/6/cubby.tiff"],
+      "7": ["bowls/7/cubby.tiff"],
+      "8": ["bowls/8/cubby.tiff"],
+      "9": ["bowls/9/cubby.tiff"],
+      "10": ["bowls/10/cubby.tiff"],
+      "11": ["bowls/11/cubby.tiff"]
     }
   }
 }

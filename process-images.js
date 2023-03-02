@@ -29,6 +29,7 @@ async function doStuff(source, widths, o) {
     let meta;
     try {
       meta = await Image(path, imageOptions);
+      console.log(path);
     } catch (e) {
       console.error(`Error while processing ${path}`);
       throw e;
