@@ -13,7 +13,13 @@ async function loadImageInfo() {
 }
 
 function imageShortcode(dataPath, alt, className='') {
-  let image = walk(info, dataPath);
+  let image;
+  try {
+    image = walk(info, dataPath);
+  } catch (e) {
+    console.warn(`Failed to walk image dataPath "${dataPath}": ${e}`);
+    return '<img src="error" alt="" />';
+  }
   const sources = image.sources.map(s => `
       <source type="image/${s.type}" srcset="${srcset(s.files)}" />`).join('');
   return `

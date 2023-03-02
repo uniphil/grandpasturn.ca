@@ -11,8 +11,13 @@ const numToBowl = bowls.reduce((a, b) => {
 
 
 const Image = ({ dataPath, alt, className }) => {
-  console.log({ dataPath });
-  let image = walk(images, dataPath);
+  let image;
+  try {
+    image = walk(images, dataPath);
+  } catch (e) {
+    console.warn(`Failed to walk image dataPath "${dataPath}": ${e}`);
+    return <img src="error" alt="" />;
+  }
   const sources = image.sources.map(s =>
     <source type={`image/${s.type}`} srcset={srcset(s.files)} />);
   return (
