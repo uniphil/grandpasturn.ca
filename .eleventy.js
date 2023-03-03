@@ -2,12 +2,11 @@ const Image = require('@11ty/eleventy-img');
 const esbuild = require('esbuild');
 const fsWalk = require('@nodelib/fs.walk');
 const { readFile, writeFile } = require('node:fs');
-const { join } = require('node:path');
 const { promisify } = require('node:util');
 
 const { walk, srcset, u } = require('./image-data-util');
 
-let info,  _read = promisify(readFile);
+let info, _read = promisify(readFile), _write = promisify(writeFile);
 async function loadImageInfo() {
   info = JSON.parse(await _read('./pages/_data/images.json', 'utf-8'));
 }
@@ -35,12 +34,24 @@ function imageShortcode(dataPath, alt, className='', pictureClassName='') {
   `;
 }
 
+async function joinBowlOrigins(e) {
+  const [bowls, origins] = await Promise.all(['bowls', 'origins']
+    .map(n => _read(`./data/${n}.json`, 'utf-8').then(JSON.parse)));
+  bowls
+    .filter(b => b.origin in origins)
+    .forEach(b => b.origin = origins[b.origin].origin);
+  const data = JSON.stringify(bowls, null, 2);
+  await _write('./pages/_data/bowls.json', data, 'utf-8');
+}
+
 module.exports = eleventyConfig => {
   eleventyConfig.addShortcode('image', imageShortcode);
   eleventyConfig.addPassthroughCopy('static', { expand: true });
   eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
-  eleventyConfig.on('beforeBuild', loadImageInfo);
+  eleventyConfig.on('eleventy.before', loadImageInfo);
+  eleventyConfig.on('eleventy.before', joinBowlOrigins);
   eleventyConfig.addWatchTarget('./overlay/');
+  eleventyConfig.addWatchTarget('./data/');
   eleventyConfig.on('afterBuild', () => esbuild.build({
     entryPoints: ['overlay/index.jsx'],
     outfile: '_site/static/overlay.js',
