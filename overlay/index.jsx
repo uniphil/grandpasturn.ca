@@ -147,7 +147,7 @@ Array.from(document.querySelectorAll('[data-overlay-bowl]')).forEach(el => {
 });
 
 
-const root = ReactDOM.createRoot(document.getElementById('hi-app'));
+const root = ReactDOM.createRoot(document.getElementById('overlay-app'));
 function nav(u) {
   const num = u.hash.split('#')[1];
   const el = document.querySelector(`[data-overlay-bowl='${num}']`);
