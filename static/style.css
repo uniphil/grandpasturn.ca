@@ -75,7 +75,9 @@ nav, ul.nav {
 }
 
 ul.nav {
-  justify-content: center;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 nav.over-grid {
@@ -84,8 +86,26 @@ nav.over-grid {
   width: var(--grid-content-width);
 }
 
+/* should match --grid-image-width (can't use vars in media query) */
+@media screen and (max-width: 672px) {
+  nav.over-grid {
+    background: hsla(var(--h), var(--s), var(--l), 0.667);
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 0.333em 1em;
+    box-shadow: 0 0 0.5em hsla(var(--fh), var(--fs), var(--fl), 0.2);
+    z-index: 1;
+  }
+  .container.grid {
+    margin-top: 3.5em;
+  }
+}
+
 nav h1 {
   flex-grow: 1;
+  flex-shrink: 0;
 }
 
 p:not(:first-of-type) {
