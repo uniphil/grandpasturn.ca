@@ -122,11 +122,12 @@ class BowlOverlay extends React.Component {
                   className="overlay-image" />
               </div>
               <div className="bowl-info flow">
-                <p>{bowl.description}</p>
-                <p>{bowl.date}</p>
+                <p>{bowl.signed}</p>
                 <ul className="actual">
-                  <li>{bowl.source}</li>
-                  <li>{bowl.feature}</li>
+                  <li>{bowl.origin}</li>
+                  <li>{bowl.species}</li>
+                  <li>{bowl.finish}</li>
+                  <li>{bowl.sense}</li>
                 </ul>
                 <a className="button" href={this.props.href}>
                   Read more&hellip;
