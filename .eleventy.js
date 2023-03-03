@@ -12,7 +12,7 @@ async function loadImageInfo() {
   info = JSON.parse(await _read('./pages/_data/images.json', 'utf-8'));
 }
 
-function imageShortcode(dataPath, alt, className='') {
+function imageShortcode(dataPath, alt, className='', pictureClassName='') {
   let image;
   try {
     image = walk(info, dataPath);
@@ -23,7 +23,7 @@ function imageShortcode(dataPath, alt, className='') {
   const sources = image.sources.map(s => `
       <source type="image/${s.type}" srcset="${srcset(s.files)}" />`).join('');
   return `
-    <picture>
+    <picture class="${pictureClassName}">
       ${sources}
       <img
         class="${className}"

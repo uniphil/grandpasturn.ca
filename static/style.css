@@ -7,11 +7,26 @@
   --fl: 12%;
 /*  --bg: #faecd2;*/
   --bg: hsl(var(--h), var(--s), var(--l));
+  --fg: hsl(var(--fh), var(--fs), var(--fl));
   --flow-space: 1.5em;
   --flow-space-h: 1em;
   --text-sm: 0.75em;
+
+  /* layout dimensions */
+
+  /* layout: home page shelf grid */
+  --grid-image-width: 672px;
+  --grid-image-height: 668px;
+  --grid-bleed-top: 34px;
+  --grid-bleed-right: 35px;
+  --grid-bleed-left: 34px;
+  --grid-bleed-bottom: 28px;
+  --grid-content-width: calc(var(--grid-image-width) - var(--grid-bleed-left) - var(--grid-bleed-right));
+  --grid-content-height: calc(var(--grid-image-height) - var(--grid-bleed-top) - var(--grid-bleed-bottom));
+
+  /* base styles */
   background-color: var(--bg);
-  color: hsl(var(--fh), var(--fs), var(--fl));
+  color: var(--fg);
   font-size: 14pt;
   line-height: 1.5em;
 }
@@ -33,10 +48,16 @@
 
 .container {
   margin: 0 auto;
-  max-width: 672px;
 }
 
-.boring.container {
+.container.grid {
+  position: relative;
+  width: var(--grid-content-width);
+  height: var(--grid-content-height);
+  margin: 0.5em auto;
+}
+
+.container.boring {
   max-width: 28em;
   padding: 0 var(--flow-space-h);
   text-align: justify;
@@ -56,12 +77,14 @@ ul.nav {
   justify-content: center;
 }
 
-nav h1 {
-  flex-grow: 1;
+nav.over-grid {
+  margin: 1em auto 1.333em;
+  padding: 0 1.5em;
+  width: var(--grid-content-width);
 }
 
-h1 {
-  text-align: center;
+nav h1 {
+  flex-grow: 1;
 }
 
 p:not(:first-of-type) {
@@ -88,45 +111,33 @@ button.reset {
   cursor: inherit;
 }
 
+
+.grid-edge-fade {
+  display: block;
+  left: calc(-1 * var(--grid-bleed-left));
+  position: absolute;
+  top: calc(-1 * var(--grid-bleed-top));
+  z-index: -1;
+}
+.grid-edge-fade:after {
+  bottom: 0;
+  box-shadow: 0 0 1.1em 1.1em var(--bg) inset;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 .the-grid {
   display: block;
-  height: auto;
-  width: 100%;
-}
-
-.bowls-container {
-  position: relative;
-}
-
-@media screen and (max-width: 500px) {
-  .container {
-    max-width: unset;
-  }
-  .bowls-container {
-    width: 192%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .container {
-    max-width: unset;
-  }
-  .bowls-container {
-    width: 246%;
-  }
 }
 
 .bowls {
-  box-shadow: 0 0 1.1em 1.1em var(--bg) inset;
   display: grid;
   grid-gap: 1%;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(9, 1fr);
   height: 100%;
-  left: 0;
-  padding: 1.8em 1.9em 1.5em 1.8em;
-  position: absolute;
-  top: 0;
   width: 100%;
 }
 
