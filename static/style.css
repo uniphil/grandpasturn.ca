@@ -79,7 +79,7 @@ ul.nav {
 }
 
 nav.over-grid {
-  margin: 1em auto 1.333em;
+  margin: 1.333em auto;
   padding: 0 1.5em;
   width: var(--grid-content-width);
 }
