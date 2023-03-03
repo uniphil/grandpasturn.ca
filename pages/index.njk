@@ -15,7 +15,7 @@ layout: base
              'the-grid' %}
     <ol class="bowls unlist">
       {% for bowl in bowls %}
-        <li>
+        <li data-bowl="{{ bowl.number }}">
           <a
             id="{{ bowl.number }}"
             href="{{ ('/bowl/' + bowl.number + '/') | url }}"

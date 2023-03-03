@@ -130,6 +130,15 @@ button.reset {
   width: 100%;
 }
 
+.bowls > li[data-bowl="80"] {
+  grid-column-start: 8;
+  grid-row-start: 9;
+}
+.bowls > li[data-bowl="81"] {
+  grid-column-start: 9;
+  grid-row-start: 9;
+}
+
 .bowls > li > a {
 /*  background: hsla(0, 0%, 0%, 0.3);*/
   display: block;

@@ -97,7 +97,7 @@ class BowlOverlay extends React.Component {
       <div className="bowl-overlay" onClick={this.close}>
         <div className="overlay-size" onClick={this.stop}>
           <div className="bowl-header">
-            <div className="move-buttons flow left">
+            <div className="move-buttons">
               <MoveButton dir="left" n={this.left()} goto={this.goto} />
               <div className="move-vertical-buttons">
                 <MoveButton dir="up" n={this.up()} goto={this.goto} />
