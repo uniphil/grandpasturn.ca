@@ -6,7 +6,7 @@ const MoveButton = ({ n, dir, goto }) => (
     className={`reset pointer move ${dir}`}
     title={`Bowl #${n}`}
     disabled={!n}>
-    {n || '-'}
+    <span className="visually-hidden">{dir}</span>
   </button>
 );
 

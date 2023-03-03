@@ -185,48 +185,100 @@ button.reset {
 }
 
 .bowl-header {
-  align-items: baseline;
+  align-items: flex-end;
   display: flex;
   color: var(--bg);
   justify-content: space-between;
+  margin-bottom: 0.333em;
+}
+
+.bowl-header button {
+  --size: 1.1;
+  --fsize: 0.75;
+  --scale: calc(var(--size) / var(--fsize));
+  border-radius: calc(var(--scale) * 0.25em);
+  border: 1px solid hsla(var(--h), var(--s), var(--l), 0.667);
+  color: var(--bg);
+  display: block;
+  font-size: calc(var(--fsize) * 1em);
+  height: calc(var(--scale) * 1em);
+  line-height: calc(var(--scale) * 1em);
+  text-align: center;
+  width: calc(var(--scale) * 1.2em);
+}
+.bowl-header button:not(:disabled):hover {
+  background: hsla(var(--h), var(--s), var(--l), 0.333);
+  color: #fff;
 }
 
 .move-buttons {
+  align-items: center;
+  color: var(--bg);
   display: flex;
 }
 .move-vertical-buttons {
   display: flex;
   flex-direction: column;
+  margin: 0 -0.08em;
 }
 
+button.move {
+  position: relative;
+}
 .move {
-  text-decoration: none;
-  color: inherit;
+  --chev-size: 0.3em;
+  --chev-thickness: 1.5px;
+  --chev-color: var(--bg);
 }
-.move:hover {
-  color: #fff;
+.move:disabled {
+  opacity: 0.333;
 }
-.move.lr {
-  padding: 0 0.25em;
+.move:not(:disabled):hover:before {
+  border-color: #fff;
+}
+.move:before {
+  border-color: var(--chev-color);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: var(--chev-thickness) var(--chev-thickness) 0 0;
+  content: "";
+  display: block;
+  height: var(--chev-size);
+  left: calc(50% - var(--chev-thickness) / 2);
+  margin-left: calc(-1 * var(--chev-size) / 2);
+  margin-top: calc(-1 * var(--chev-size) / 2);
+  position: absolute;
+  top: calc(50% - var(--chev-thickness) / 2);
+  width: var(--chev-size);
+}
+.move.left {
+  border-right-width: 0;
+}
+.move.up {
+  border-bottom-width: 0;
+}
+.move.down {
+  border-top-width: 0;
+}
+.move.right {
+  border-left-width: 0;
+}
+.move.left:before {
+  rotate: -135deg;
+}
+.move.up:before {
+  rotate: -45deg;
+}
+.move.down:before {
+  rotate: 135deg;
+}
+.move.right:before {
+  rotate: 45deg;
 }
 
 .bowl-header h2 {
   color: #fff;
   margin: 0;
-}
-
-.close {
-  --size: 1em;
-  display: block;
-  font-size: 1.5em;
-  height: var(--size);
-  line-height: var(--size);
-  text-align: center;
-  width: var(--size);
-  margin: 0.333em;
-}
-.close:hover {
-  color: #fff;
 }
 
 .overlay-content {
