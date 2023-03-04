@@ -2,10 +2,11 @@
 layout: base.njk
 ---
 
+<nav class="over-grid">
+  {% include 'navigation.njk' %}
+</nav>
+
 <div class="boring container flow">
-  <nav>
-    {% include 'navigation.njk' %}
-  </nav>
 
   {{ content | safe }}
 </div>
