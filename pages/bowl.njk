@@ -7,6 +7,7 @@ pagination:
 permalink: "bowl/{{ bowl.number | slugify }}/"
 eleventyComputed:
     title: "Bowl #{{ bowl.number }}"
+    og_image: "{% image_path 'bowls.' + bowl.number + '.0.overlay' %}"
 ---
 
 <nav class="over-grid">

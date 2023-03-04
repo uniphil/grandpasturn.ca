@@ -34,6 +34,10 @@ function imageShortcode(dataPath, alt, className='', pictureClassName='') {
   `;
 }
 
+function imagePathShortcode(dataPath, alt, className='', pictureClassName='') {
+  return u(walk(info, dataPath).canonical.file);
+}
+
 async function joinBowlOrigins(e) {
   const [bowls, origins] = await Promise.all(['bowls', 'origins']
     .map(n => _read(`./data/${n}.json`, 'utf-8').then(JSON.parse)));
@@ -46,6 +50,7 @@ async function joinBowlOrigins(e) {
 
 module.exports = eleventyConfig => {
   eleventyConfig.addShortcode('image', imageShortcode);
+  eleventyConfig.addShortcode('image_path', imagePathShortcode);
   eleventyConfig.addPassthroughCopy('static', { expand: true });
   eleventyConfig.setServerPassthroughCopyBehavior('passthrough');
   eleventyConfig.on('eleventy.before', loadImageInfo);
