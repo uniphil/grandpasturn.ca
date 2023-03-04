@@ -12,7 +12,7 @@
   <meta property="og:type" content="{% if og_type %}{{ og_type }}{% else %}website{% endif %}" />
   <meta property="og:url" content="{% if canonical_url %}{{ canonical_url }}{% else %}https://grandpasturn.ca{{ page.url }}{% endif %}" />
   <meta property="og:image" content="https://grandpasturn.ca{% if og_image %}{{ og_image }}{% else %}{% image_path 'grid.grid' %}{% endif %}" />
-
+  <link rel="manifest" href="{{ '/static/site.webmanifest' | url }}">
   <link rel="stylesheet" href="{{ '/static/style.css' | url }}" />
 </head>
 <body>
