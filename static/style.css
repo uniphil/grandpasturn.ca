@@ -10,6 +10,7 @@
   --fg: hsl(var(--fh), var(--fs), var(--fl));
   --flow-space: 1.5em;
   --flow-space-h: 1em;
+  --text-m: 0.82em;
   --text-sm: 0.75em;
 
   /* layout dimensions */
@@ -24,6 +25,9 @@
   --grid-content-width: calc(var(--grid-image-width) - var(--grid-bleed-left) - var(--grid-bleed-right));
   --grid-content-height: calc(var(--grid-image-height) - var(--grid-bleed-top) - var(--grid-bleed-bottom));
   --grid-h-margin: 24px;
+
+  /* layout: bowl detail page */
+  --detail-image-width: 512px;
 
   /* base styles */
   background-color: var(--bg);
@@ -56,6 +60,12 @@
   margin: 0.5em auto;
   position: relative;
   width: calc(2 * var(--grid-h-margin) + var(--grid-content-width));
+}
+
+.container.detail {
+  display: flex;
+  max-width: 960px;
+  margin-top: 3em;
 }
 
 .container.boring {
@@ -347,6 +357,45 @@ button.move {
 .button:active {
   background: skyblue;
 }
+
+/* /////// image detail ////// */
+.detail.images {
+  flex: 0 1 var(--detail-image-width);
+}
+.detail.image {
+  width: 100%;
+  height: auto;
+}
+
+.detail.text {
+  flex: 1 2 42%;
+  font-size: var(--text-m);
+  padding: 1em;
+  line-height: 1.5em;
+}
+.detail.text h1,
+.detail.text h2 {
+  font-weight: normal;
+}
+.detail.text h2 {
+  margin: 1.5em 0 0.5em;
+}
+.detail.text p {
+  margin: 1em 0;
+  text-indent: 0;
+}
+.detail.text dl {
+  margin-top: 2.5em;
+  padding: 0.5em 0;
+  border-top: 1px solid hsla(var(--fh), var(--fs), var(--fl), 0.2);
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: 1fr 3fr;
+}
+.detail.text dt {
+  font-weight: bold;
+}
+
 
 footer {
   color: #666;

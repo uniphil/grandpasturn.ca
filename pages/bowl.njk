@@ -1,5 +1,5 @@
 ---
-layout: boring
+layout: base
 pagination:
     data: bowls
     size: 1
@@ -9,20 +9,46 @@ eleventyComputed:
     title: "Bowl #{{ bowl.number }}"
 ---
 
-<h1>{{ title }}</h1>
-{% image 'bowls.' + bowl.number + '.0.overlay',
-         '81 hand-turned wooden bowls on a home-made 9x9 compartment shelf',
-         'the-grid' %}
-<dl>
-  <dt>signed</dt>
-  <dd>{{ bowl.signed }}</dd>
-  <dt>species</dt>
-  <dd>{{ bowl.species }}</dd>
-  <dt>origin</dt>
-  <dd>{{ bowl.origin }}</dd>
-  <dt>finish</dt>
-  <dd>{{ bowl.finish }}</dd>
-  <dt>sense</dt>
-  <dd>{{ bowl.sense }}</dd>
-</dl>
-<p>{{ bowl.description }}</p>
+<nav class="over-grid">
+  <h1>Grandpa's Turn</h1>
+  {% include 'navigation.njk' %}
+</nav>
+
+<div class="container detail flow left">
+  <div class="detail images">
+    {% image 'bowls.' + bowl.number + '.0.overlay',
+           '81 hand-turned wooden bowls on a home-made 9x9 compartment shelf',
+           'detail image' %}
+  </div>
+  <div class="detail text">
+    <h1>
+      {{ title }}
+      {% if bowl.sense.length %}
+        <small>— {{ bowl.sense.join(', ') }}</small>
+      {% endif %}
+    </h1>
+    {% if bowl.description %}
+      <p>{{ bowl.description }}</p>
+    {% endif %}
+    {% if bowl.origin %}
+      <h2>Reclaimed wood origin</h2>
+      <p>{{ bowl.origin }}</p>
+    {% endif %}
+    {% if bowl.signed or bowl.species or bowl.finish %}
+      <dl>
+        {% if bowl.signed %}
+          <dt>Signed</dt>
+          <dd>{{ bowl.signed }}</dd>
+        {% endif %}
+        {% if bowl.species %}
+          <dt>Species</dt>
+          <dd>{{ bowl.species }}</dd>
+        {% endif %}
+        {% if bowl.finish %}
+          <dt>Finish</dt>
+          <dd>{{ bowl.finish }}</dd>
+        {% endif %}
+      </dl>
+    {% endif %}
+  </div>
+</div>
