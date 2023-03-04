@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import bowls from '../pages/_data/bowls.json';
 import MoveButton from './MoveButton';
 import Image from './Image';
+import { ellipsize } from './utils';
 
 const numToBowl = bowls.reduce((a, b) => {
   a[b.number] = b;
@@ -90,8 +91,9 @@ class BowlOverlay extends React.Component {
     e.stopPropagation();
 
   render() {
-    const { num } = this.props;
+    const { num, href } = this.props;
     const bowl = numToBowl[num];
+    const [ellipsized, cut] = ellipsize(bowl.description, 200);
 
     return (
       <div className="bowl-overlay" onClick={this.close}>
@@ -105,7 +107,6 @@ class BowlOverlay extends React.Component {
               </div>
               <MoveButton dir="right" n={this.right()} goto={this.goto} />
             </div>
-            <h2>#{num}</h2>
             <button
               className="reset pointer close"
               title="close preview"
@@ -116,22 +117,33 @@ class BowlOverlay extends React.Component {
           <div className="overlay-content">
             <div className="bowl-detail flow left">
               <div className="bowl-images">
-                <Image
-                  dataPath={`bowls.${num}.0.overlay`}
-                  alt=""
-                  className="overlay-image" />
-              </div>
-              <div className="bowl-info flow">
-                <p>{bowl.signed}</p>
-                <ul className="actual">
-                  <li>{bowl.origin}</li>
-                  <li>{bowl.species}</li>
-                  <li>{bowl.finish}</li>
-                  <li>{bowl.sense}</li>
-                </ul>
-                <a className="button" href={this.props.href}>
-                  Read more&hellip;
+                <a href={href}>
+                  <Image
+                    dataPath={`bowls.${num}.0.overlay`}
+                    alt=""
+                    className="overlay-image" />
                 </a>
+              </div>
+              <div className="bowl-info">
+                <h2>
+                  <a href={href}>Bowl #{num}</a>
+                  {bowl.sense.length > 0 && (
+                    <small> — {bowl.sense.join(', ')}</small>
+                  )}
+                </h2>
+                {ellipsized && (
+                  <p>{ellipsized} {cut && (<a class="continue" href={href}>continue reading&hellip;</a>)}</p>
+                )}
+                {(bowl.signed || bowl.species || bowl.finish) &&(
+                  <dl>
+                    {bowl.signed && (<><dt>Signed</dt><dd>{bowl.signed}</dd></>)}
+                    {bowl.species && (<><dt>Species</dt><dd>{bowl.species}</dd></>)}
+                    {bowl.finish && (<><dt>Finish</dt><dd>{bowl.finish}</dd></>)}
+                  </dl>
+                )}
+                <p>
+                  <a className="button" href={href}>Full details&hellip;</a>
+                </p>
               </div>
             </div>
           </div>
