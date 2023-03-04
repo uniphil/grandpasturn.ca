@@ -73,6 +73,9 @@
   text-align: justify;
   width: calc(2 * var(--grid-h-margin) + var(--grid-content-width));
 }
+.boring a {
+  color: inherit;
+}
 
 .unlist > li {
   list-style-type: none;
