@@ -71,7 +71,7 @@
 .container.boring {
   padding: 0 var(--flow-space-h);
   text-align: justify;
-  width: calc(2 * var(--grid-h-margin) + var(--grid-content-width));
+  max-width: calc(2 * var(--grid-h-margin) + var(--grid-content-width));
 }
 .boring a {
   color: inherit;
@@ -154,6 +154,9 @@ font-weight:lighter;
   }
   .container.grid {
     margin-top: 3.5em;
+  }
+  .container.boring {
+    padding-top: 8em;
   }
 }
 
