@@ -96,6 +96,25 @@ nav.over-grid {
   width: var(--grid-content-width);
 }
 
+.nav-item {
+  color: #2c0d03;
+  text-decoration: none;
+}
+
+.nav-item::after{
+  content:'';
+  width: 0%;
+  height: 2px;
+  background: #ac92a6;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-item:hover::after{
+  width: 100%;
+}
+
 /* should match --grid-image-width (can't use vars in media query) */
 @media screen and (max-width: 672px) {
   nav.over-grid {
