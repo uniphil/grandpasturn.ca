@@ -69,9 +69,9 @@
 }
 
 .container.boring {
-  max-width: 28em;
   padding: 0 var(--flow-space-h);
   text-align: justify;
+  width: calc(2 * var(--grid-h-margin) + var(--grid-content-width));
 }
 
 .unlist > li {
@@ -121,6 +121,20 @@ nav.over-grid img{
 
 .nav-item:hover::after{
   width: 100%;
+}
+
+h1{
+font-family:sans-serif;
+font-weight:lighter;
+}
+
+.page-title{
+  display: flex;
+  justify-content: center;
+}
+
+.page-text{
+  font-family: sans-serif;
 }
 
 /* should match --grid-image-width (can't use vars in media query) */
