@@ -124,7 +124,7 @@ class BowlOverlay extends React.Component {
                     className="overlay-image" />
                 </a>
               </div>
-              <div className="bowl-info">
+              <div className={`bowl-info ${cut ? 'cut' : ''}`}>
                 <h2>
                   <a href={href}>Bowl #{num}</a>
                   {bowl.sense.length > 0 && (
@@ -132,9 +132,11 @@ class BowlOverlay extends React.Component {
                   )}
                 </h2>
                 {ellipsized && (
-                  <p>{ellipsized} {cut && (<a class="continue" href={href}>continue reading&hellip;</a>)}</p>
+                  <p className="description">
+                    {ellipsized}{cut && (<span className="continue"> <a href={href}>continue reading&hellip;</a></span>)}
+                  </p>
                 )}
-                {(bowl.signed || bowl.species || bowl.finish) &&(
+                {(bowl.signed || bowl.species || bowl.finish) && (
                   <dl>
                     {bowl.signed && (<><dt>Signed</dt><dd>{bowl.signed}</dd></>)}
                     {bowl.species && (<><dt>Species</dt><dd>{bowl.species}</dd></>)}
@@ -142,7 +144,7 @@ class BowlOverlay extends React.Component {
                   </dl>
                 )}
                 <p>
-                  <a className="button" href={href}>Full details&hellip;</a>
+                  <a className="full-details" href={href}>Full details »</a>
                 </p>
               </div>
             </div>
