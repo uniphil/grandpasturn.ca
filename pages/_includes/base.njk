@@ -6,12 +6,15 @@
     {%- if title %}{{ title }} | {% endif -%}
     Grandpa's Turn – Hand turned bowls by Peter Schleihauf
   </title>
-  <meta name="description" content="{% if og_description %}{{ og_description }}{% else %}Hand turned bowls by Peter Schleihauf{% endif %}" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{% if og_description %}{{ og_description }}{% else %}Hand turned bowls by Peter Schleihauf{% endif %}" />
   <meta property="og:title" content="{% if title %}{{ title }}{% else %}Grandpa's Turn{% endif %}" />
+  <meta property="og:description" content="{% if og_description %}{{ og_description }}{% else %}Hand turned bowls by Peter Schleihauf{% endif %}" />
   <meta property="og:type" content="{% if og_type %}{{ og_type }}{% else %}website{% endif %}" />
   <meta property="og:url" content="{% if canonical_url %}{{ canonical_url }}{% else %}https://grandpasturn.ca{{ page.url }}{% endif %}" />
   <meta property="og:image" content="https://grandpasturn.ca{% if og_image %}{{ og_image }}{% else %}{% image_path 'grid.grid' %}{% endif %}" />
+  <link rel="apple-touch-icon" href="{{ '/static/images/icon-7-192.png' | url }}" />
+  <link rel="icon" type="image/png" href="{{ '/static/images/icon-7-192.png' | url }}" />
   <link rel="manifest" href="{{ '/static/site.webmanifest' | url }}">
   <link rel="stylesheet" href="{{ '/static/style.css' | url }}" />
 </head>
