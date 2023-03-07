@@ -76,6 +76,11 @@
 .boring a {
   color: inherit;
 }
+.boring .photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
 
 .unlist > li {
   list-style-type: none;
